@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 font =cv2.FONT_HERSHEY_SIMPLEX
-for index in xrange(33,127):
+for index in xrange(65,91):
 	img=np.zeros((16,16,3))
 	letter_int=index
 	letter_str=chr(letter_int)
